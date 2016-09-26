@@ -1,0 +1,29 @@
+table, th, td{
+	border: 1px double black;
+}
+
+tbody>tr>th{font-style:italic; font-weight:normal}
+tbody tr:nth-of-type(odd){
+	background-color:#b3ffb3;
+}
+
+tbody tr:nth-of-type(even){
+	background-color:#ccffff;
+}
+
+.outer-content{
+	text-align:center;
+	background-color:pink;
+	width:75%;
+	margin-top:20px;
+	display:block
+	margin-bottom:20px;
+}
+
+.inner-content{
+	background-color:blue;
+	width:75%;
+	display:inline-block;
+	margin-top:20px;
+	margin-bottom:20px;
+}
